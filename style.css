@@ -33,6 +33,13 @@ html {
   color: var(--nord0);
 }
 
+th {
+  font-size: x-large;
+  color: var(--nord0);
+  background-color: var(--nord6);
+  border-radius: 0.5em;
+}
+
 .cta-button {
   display: inline-flex;
   justify-content: center;
