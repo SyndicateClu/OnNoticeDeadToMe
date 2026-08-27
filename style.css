@@ -25,6 +25,7 @@
   padding: 0;
   box-sizing: border-box;
   border: none;
+  background-color: var(--nord3);
 }
 
 html {
@@ -33,20 +34,29 @@ html {
   color: var(--nord0);
 }
 
+header {
+  margin: 2em auto;
+  width: 35em;
+  height: 5em;
+  background-color: var(--nord4);
+  padding: min(2em, 15%);
+  border-radius: 1em;
+}
+
+.headertext {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--nord4);
+  font-size: xx-large;
+  font-weight: 900;
+}
+
 th {
   font-size: x-large;
   color: var(--nord0);
   background-color: var(--nord6);
   border-radius: 0.5em;
-}
-
-header,
-section {
-  margin: 2em auto;
-  width: min(75em, 100%);
-  background-color: var(--nord4);
-  padding: min(2em, 15%);
-  border-radius: 1em;
 }
 
 .flex-container {
